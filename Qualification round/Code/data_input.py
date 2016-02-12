@@ -48,7 +48,7 @@ def main(file_name):
     end_wharehouse_range = (start_wharehouse_range - 1) + (2 * no_warehouses)
 
 
-    position_of_warehouses = generate_range(start_wharehouse_range,end_wharehouse_range)
+    position_of_warehouses = generate_range(start_wharehouse_range,end_wharehouse_range,2)
 
     warehouses_loc_and_stock = []
     # print(position_of_warehouses)
@@ -71,17 +71,19 @@ def main(file_name):
     no_customter_orders = list_file_inputs_lists_lines[location_cus_order_no][0]
 
     start_customer_orders = location_cus_order_no + 1
-    end_customer_order = location_cus_order_no + (no_customter_orders *2)
+    end_customer_order = location_cus_order_no + (no_customter_orders * 3)
 
-    range_orders = generate_range(start_customer_orders,end_customer_order)
+    range_orders = generate_range(start_customer_orders,end_customer_order,3)
 
     customer_order_loc_request = []
 
     for i in range_orders:
         new_item = []
         location = list_file_inputs_lists_lines[i]
-        item_requested = list_file_inputs_lists_lines[i + 1]
+        no_items = list_file_inputs_lists_lines[i + 1]
+        item_requested = list_file_inputs_lists_lines[i + 2]
         new_item.append(location)
+        new_item.append(no_items)
         new_item.append(item_requested)
 
         customer_order_loc_request.append(new_item)
@@ -92,9 +94,9 @@ def main(file_name):
 
     return Current_senario
 
-def generate_range(start,finish):
+def generate_range(start,finish,move_by):
     range_list = []
-    for i in range(start,finish,2):
+    for i in range(start,finish,move_by):
         range_list.append(i)
     return range_list
 
@@ -123,4 +125,5 @@ class Senario:
 if __name__ == '__main__':
     file_name = "busy_day.in"
     current_senario = main(file_name)
+    current_senario.print_information()
 

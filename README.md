@@ -1,4 +1,4 @@
-Readme file for the Google Hash challange qualification round 2016
+Readme file for the Google Hash challange qualification round 2016. Original team was Silly Silicion.
 
 On attempting the problem was a group realised we did not have the required programming skill to complete the task.
 

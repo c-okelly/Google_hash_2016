@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="025ebaf2-eb69-45fd-aaaa-b8349a338da4" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Qualification round/busy_day.in" afterPath="$PROJECT_DIR$/Qualification round/Code/busy_day.in" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Qualification round/Code/classes.py" afterPath="$PROJECT_DIR$/Qualification round/Code/classes.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Qualification round/Code/data_input.py" afterPath="$PROJECT_DIR$/Qualification round/Code/data_input.py" />
     </list>
     <ignored path="Google_hash_chall.iws" />
@@ -28,9 +29,11 @@
         <entry file="file://$PROJECT_DIR$/Qualification round/Code/classes.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
               <folding>
-                <element signature="e#196#371#0" expanded="false" />
+                <element signature="e#528#878#0" expanded="false" />
+                <element signature="e#931#1635#0" expanded="false" />
+                <element signature="e#1690#2091#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -39,25 +42,20 @@
       <file leaf-file-name="data_input.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Qualification round/Code/data_input.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.50898206">
-              <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
-              <folding />
+            <state vertical-scroll-proportion="0.4790419">
+              <caret line="124" column="9" selection-start-line="124" selection-start-column="9" selection-end-line="124" selection-end-column="9" />
+              <folding>
+                <element signature="e#168#2501#0" expanded="false" />
+                <element signature="e#2541#2643#0" expanded="false" />
+                <element signature="e#2666#3604#0" expanded="false" />
+                <marker date="1455280205000" expanded="true" signature="1018:1019" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="busy_day.in" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Qualification round/Code/busy_day.in">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="data.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Desktop/data.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -74,6 +72,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/Qualification round/Code/classes.py" />
         <option value="$PROJECT_DIR$/Qualification round/Code/data_input.py" />
       </list>
     </option>
@@ -167,6 +166,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -411,18 +412,25 @@
     <entry file="file://$PROJECT_DIR$/Qualification round/Code/classes.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
           <folding>
-            <element signature="e#196#371#0" expanded="false" />
+            <element signature="e#528#878#0" expanded="false" />
+            <element signature="e#931#1635#0" expanded="false" />
+            <element signature="e#1690#2091#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Qualification round/Code/data_input.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.50898206">
-          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
-          <folding />
+        <state vertical-scroll-proportion="0.4790419">
+          <caret line="124" column="9" selection-start-line="124" selection-start-column="9" selection-end-line="124" selection-end-column="9" />
+          <folding>
+            <element signature="e#168#2501#0" expanded="false" />
+            <element signature="e#2541#2643#0" expanded="false" />
+            <element signature="e#2666#3604#0" expanded="false" />
+            <marker date="1455280205000" expanded="true" signature="1018:1019" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>

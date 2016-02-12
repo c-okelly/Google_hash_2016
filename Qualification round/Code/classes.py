@@ -7,7 +7,8 @@ import math
 class Drone:
 
     def __init__(self,position,current_load,items_weight,max_weight):
-        self.position = position
+        self.position_x = position[0]
+        self.position_y = position[1]
         self.current_load = current_load
         self.items_weight = items_weight
         self.max_weight = max_weight

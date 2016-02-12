@@ -102,7 +102,7 @@ def generate_range(start,finish):
 class Senario:
 
     def __init__(self,senario_layout,no_products,product_weights,no_warehouse,warehouse_info,no_cusotmer_orders, customer_orders):
-        self.senario = senario_layout
+        self.senario_layout = senario_layout
         self.no_products = no_products
         self.product_weights = product_weights
         self.no_warehouse = no_warehouse
@@ -116,10 +116,11 @@ class Senario:
         print("There are %i products their weight are %s" % (self.no_products,self.product_weights))
         print("There are %i warehouses" % (self.no_warehouse))
         print("The warehouse location and stock levels are %s" % (self.warehouse_info))
-        print("There are %i customer order" % (self.no_cusotmer_orders))
+        print("There are %i customer order" % (self.no_customer_orders))
         print("The order location and requests are %s " % (self.customer_orders))
 
 
 if __name__ == '__main__':
     file_name = "busy_day.in"
-    main(file_name)
+    current_senario = main(file_name)
+
